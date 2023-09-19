@@ -1,1 +1,15 @@
-<p>portfolio works!</p>
+<div class="projectList">
+    <mat-card *ngFor="let project of testProjects">
+        <mat-card-content>
+            <div class="projectheader">
+                <h2>{{project.name}} |</h2>
+                <div class="techStack">
+                    <p *ngFor="let tech of project.stack">{{tech}}</p>
+                </div>
+            </div>
+            <img class="projectImg" src={{project.imageURL}} alt="">
+            <p>{{project.description}}</p>
+            <a mat-raised-button color="accent" href={{project.url}} target="_blank">View project</a>
+        </mat-card-content>
+    </mat-card>
+</div>

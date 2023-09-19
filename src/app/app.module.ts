@@ -13,6 +13,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 
@@ -32,7 +34,8 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserAnimationsModule,
     MatSidenavModule,
     MatListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
