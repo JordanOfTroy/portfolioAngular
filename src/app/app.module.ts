@@ -14,9 +14,12 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { AngularFireModule } from "@angular/fire/compat";
+import { AngularFirestoreModule } from "@angular/fire/compat/firestore";
+import { environment } from 'environment';
 
-
-
+// Solution 3 got this project back on it's feet, in regard to Firestore
+//https://stackoverflow.com/questions/73281199/error-when-importing-angularfiredatabasemodule
 
 @NgModule({
   declarations: [
@@ -35,7 +38,9 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
