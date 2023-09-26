@@ -1,7 +1,8 @@
 export interface Project {
     name: string,
     url?: string,
-    imageURL?: string,
+    images?: string[],
     description: string,
-    stack?: string[]
+    stack?: string[],
+    id: any
 }
