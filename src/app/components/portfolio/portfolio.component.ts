@@ -29,6 +29,7 @@ export class PortfolioComponent implements OnInit {
 
   testProjects = environment.prevProjects
 
+  //can't get this to work right, so fuck it. 
   getProjects () {
     console.log('check 1')
     this.projects$ = this.portfolioService.getProjectsObservable()
