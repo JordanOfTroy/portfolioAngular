@@ -4,7 +4,9 @@ export const environment = {
         {
             name: 'Barbra Eaton',
             url: 'https://drbarbaraeaton.com/',
-            images: ['https://lh3.googleusercontent.com/pw/AIL4fc_IAY_NcE24Pd99lwYVcqb7p6PzbPGJtBGORPvaU2OROTD-PBo8or-H4Zcbp1S0KdPA2SgQTY-O4vz-Xf1yulF_DTnavU4vVrzRnXfB4rs7ta79x-Jx4hsoYD4tkAhgGReqoTBtNqPoAhlXm_8804aBob4lOo3qGsIvCr4T6Fo7IdpVtfwpFygkHeCnZUtsYLQ6jfCN-SpG0x2Krr8HgwjxyFkZYCiwn7dW98lWlz1vhFCJ8y4gUH0bC_nDqZFCc7xpQCD9q1oE7VAfImgzMhCHtKCDHMcJqi0s4os3u1iSD_Pnq2MB7GgqcQ-ZS9gdemDyqz8nF6MH3oeK09B-6tVPb3fjfj3B2g8GlGpmoVRoAljwbO0YN-0AC1WAtFfRXJpwuN6gafBMwx3P7trk9Xe9UY4frDLHqvhWSkNDTDQifFBPCjRR2Hnzwbr6mvHkYA7kY3eYG5mCAakLhg7v4TBOtHsj0dwTFShIaNl9y2KBvQdnOmkBcnzPZ2uurLcW5FfX-JHurCd1Gy_2b1XGOnmxXUW1RsiJdstKN-AfLztXJqP82bKjJ_Rg7LaA42bh5w5a9TfVicnqgVzUGOKgYjNyrVQ56YOPlTfHpC3V0z6xSBA672wC8_akIpzEdpFwgsjGihIzvPOZBCLbkW2M5umtJSvMCiVunz-ho9Ns7n5RosYjBVAFopaDCGjwchiZNcrE7fVtt0_ca4_NOOOGxZc8Ug6cJLUap-jnjUZWyqjiLJfkivdHuIgFUjv_7U0visLisJEckIjQtouXJIyATleoYt9S2efddP2Ip-TKVkXpx5Dq430r4JVNChtyQwdT9d0LUh745Mn2G7Zh9SC9L3dyTCYLj-ZzuUKLid9dw34LKDjXaKvhUfg4nOrsaSOFHW-n8qDtUsOGxoatZPcFcPk=w960-h720-s-no?authuser=0'],
+            images: [
+                'assets/rawImages/screencapture-drbarbaraeaton-2023-09-27-07_37_56.png',
+            ],
             description: '',
             stack: ['Wordpress']
         },
@@ -12,8 +14,7 @@ export const environment = {
             name: 'Epic Party Events',
             url: 'https://epicpartyevents.com/',
             images: [
-                'src/assets/rawImages/screencapture-epicpartyevents-2023-09-27-07_45_19.png',
-                './src/assets/rawImages/screencapture-epicpartyevents-2023-09-27-07_45_19.png',
+                'assets/rawImages/screencapture-epicpartyevents-2023-09-27-07_45_19.png',
             ],
             description: 'stupid fucking project',
             stack: ['Wordpress']
@@ -21,56 +22,72 @@ export const environment = {
         {
             name: 'Mariners Museum',
             url: 'https://www.marinersmuseum.org/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-marinersmuseum-org-2023-09-27-07_39_17.png'
+            ],
             description: '',
             stack: ['Wordpress']
         },
         {
             name: 'Hooke Audio',
             url: 'https://hookeaudio.com/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-hookeaudio-2023-09-27-07_39_59.png'
+            ],
             description: '',
             stack: ['Wordpress']
         },
         {
             name: 'Nexant Group',
             url: 'https://wattsmartsavings.net/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-Nexant-wattsmartsavings-net-2023-09-27-07_40_56.png'
+            ],
             description: '',
             stack: ['Wordpress']
         },
         {
             name: 'Paul Neustein',
             url: 'https://drneustein.com/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-drneustein-2023-09-27-07_41_59.png'
+            ],
             description: '',
             stack: ['Wordpress']
         },
         {
             name: 'Limitless Landscaping',
             url: 'https://limitlesslandscape.net/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-limitlesslandscape-net-2023-09-27-07_43_14.png'
+            ],
             description: '',
             stack: ['Wordpress']
         },
         {
             name: 'Story Tree',
             url: 'http://www.storytree.com/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-storytree-2023-09-27-07_47_17.png'
+            ],
             description: '',
             stack: ['Python|DMP (Django Mako Plus)']
         },
         {
             name: 'Scripture Notes',
             url: 'https://scripturenotes.com/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-scripturenotes-2023-09-27-07_48_59.png'
+            ],
             description: '',
             stack: ['Javascript|React', 'Node']
         },
         {
             name: 'Compliance Group - Site tool',
             url: 'https://compliancego.com/',
-            images: [],
+            images: [
+                'assets/rawImages/screencapture-compliancego-2023-09-27-07_49_47.png'
+            ],
             description: '',
             stack: ['Javascript|React', 'Node']
         }
