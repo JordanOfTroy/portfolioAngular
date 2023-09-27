@@ -20,6 +20,58 @@ mat-card {
     }
 }
 
-.projectImg {
-    max-width: 80%;
-}
+// .projectList {
+//     .projectBody {
+//         border: solid red 1px;
+//         display: flex;
+//         flex-direction: row;
+//         align-items: flex-start;
+//         justify-content: space-evenly;
+//         padding: 1em;
+    
+//         &:nth-child(even) {
+//             border: solid blue 4px;
+//         }
+        
+//         .bodySection {
+//             // border: solid blue 1px;
+//             width: 40%;
+            
+//             .projectImg {
+//                 max-width: 100%;
+//                 box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+//             }
+//         }
+//     }
+// }
+
+.projectList {
+    mat-card {
+      &:nth-child(even) {
+        .projectBody {
+          flex-direction: row-reverse;
+        }
+      }
+    }
+  
+    .projectBody {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      padding: 1em;
+  
+      .bodySection {
+        width: 40%;
+  
+        .projectImg {
+          max-width: 100%;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+      }
+    }
+  }
+  
+
+
+

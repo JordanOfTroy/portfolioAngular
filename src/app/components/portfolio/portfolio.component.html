@@ -1,24 +1,19 @@
 <div class="projectList">
     <mat-card *ngFor="let project of testProjects">
         <mat-card-content>
-            <div class="projectheader">
-                <h2>{{project.name}} |</h2>
-                <div class="techStack">
-                    <p *ngFor="let tech of project.stack">{{tech}}</p>
+            <div class="projectBody">
+                <div class="bodySection images">
+                    <img class="projectImg" *ngFor="let image of project.images" src={{image}} alt="">
+                </div>
+                <div class="bodySection">
+                    <div class="projectheader">
+                        <h2>{{project.name}} |</h2>
+                        <p class="techStack" *ngFor="let tech of project.stack">{{tech}}</p>
+                    </div>
+                    <p>{{project.description}}</p>
+                    <a mat-raised-button color="accent" href={{project.url}} target="_blank">View project</a>
                 </div>
             </div>
-            <div class="images">
-                <img class="projectImg" *ngFor="let image of project.images" src={{image}} alt="">
-            </div>
-            <p>{{project.description}}</p>
-            <a mat-raised-button color="accent" href={{project.url}} target="_blank">View project</a>
         </mat-card-content>
     </mat-card>
-    <!-- <mat-card *ngFor="let project of projects$ | async">
-        <mat-card-content>
-            <div class="projectheader">
-                <h2>{{project.name}} |</h2>
-            </div>
-        </mat-card-content>
-    </mat-card> -->
 </div>
